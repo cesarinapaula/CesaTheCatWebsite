@@ -12,3 +12,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+* {
+  background-color: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  width: 100vw;
+  
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+.imageresize {
+  width: 300px;
+}
+
+.navlink {
+  text-align: center;
+}
+
+
+.welcome
+{
+  margin: 0 auto;
+  max-width: 500px; 
+}
+
+nav {
+  font-size: 20px;
+  padding: 5px;
+  text-align: center
+}
