@@ -26,6 +26,7 @@ class Resume extends Component {
     render(){
         return(
             <div style={Center}>
+                <ResumeLink/>
                 <div id="left">
                 <h2> A Sample Of My Skills So Far </h2>
                 <ul style={List}>{skills.map(skill => <li> {skill} </li>)}</ul>
@@ -36,7 +37,6 @@ class Resume extends Component {
                 <ul style={List}>{presentlyStudying.map(skill=><li>{skill}</li>)}</ul>
                 </div>
                 <br />
-                <ResumeLink/>
             </div>
                
         )
