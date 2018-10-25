@@ -1,3 +1,7 @@
+# Welcome to Cesa the Cat's Repo!
+
+You could find Cesa The Cat napping in [her box over at Netlify](https://cesathecat.netlify.com/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
