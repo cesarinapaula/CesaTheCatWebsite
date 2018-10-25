@@ -16,8 +16,8 @@ const List = {
 const ResumeLink = () => {
   return (
     <div>
-      <i class="fa fa-linkedin" aria-hidden="true">: <a href="http://www.linkedin.com/in/cesarinapaula">Link to LinkedIn</a></i>
-      <i class="fa fa-github" aria-hidden="true">:  <a href="https://github.com/cesarinapaula">Link to GitHub</a></i>
+      <i class="fa fa-linkedin" aria-hidden="true">: <a href="http://www.linkedin.com/in/cesarinapaula">Link to Cesarina's LinkedIn</a></i>
+      <i class="fa fa-github" aria-hidden="true">:  <a href="https://github.com/cesarinapaula">Link to Cesarina's GitHub</a></i>
     </div>
   )
 }
@@ -26,6 +26,7 @@ class Resume extends Component {
     render(){
         return(
             <div style={Center}>
+                <br />
                 <ResumeLink/>
                 <div id="left">
                 <h2> A Sample Of My Skills So Far </h2>
@@ -36,7 +37,6 @@ class Resume extends Component {
                 <h2> Presently Studying</h2>
                 <ul style={List}>{presentlyStudying.map(skill=><li>{skill}</li>)}</ul>
                 </div>
-                <br />
             </div>
                
         )
