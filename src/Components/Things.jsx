@@ -18,7 +18,7 @@ class Things extends Component {
                 <h1>Things Cesa Likes</h1>
                 <ul style={List}>
                     <li>Napping</li>
-
+                    <li>The sound of plastic bags...I don't get it either.</li>
                 </ul>
             </div>
         )
